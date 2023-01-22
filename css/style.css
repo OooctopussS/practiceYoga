@@ -1,0 +1,281 @@
+/* Fonts */
+@font-face {
+  font-family: 'Muller_reg';
+  src: url('MullerRegular.woff2') format('woff2'), url('MullerRegular.woff') format('woff'), url('MullerRegular.svg#MullerRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller_bold';
+  src: url('MullerBold.woff2') format('woff2'), url('MullerBold.woff') format('woff'), url('MullerBold.svg#MullerBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Color */
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Muller_reg', sans-serif;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Main */
+header {
+  background: url(/img/header/bgmain.jpg) center no-repeat;
+  background-size: cover;
+}
+.shapka img {
+  margin-left: 10rem;
+  margin-top: 1.8rem;
+}
+.shapka p {
+  margin-top: 4.9rem;
+  text-align: right;
+  display: block;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.shapka p strong {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.header {
+  margin-top: 17.9rem;
+}
+.header-title {
+  text-align: center;
+  font-family: 'Muller_bold', sans-serif;
+  color: #ffffff;
+}
+.header-title-h {
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 4.5rem;
+}
+.header-title-p {
+  font-family: 'Muller_reg', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+.header-title-undp {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.header-btn {
+  font-family: 'Muller_bold', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 2.2rem 7.4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+  text-align: center;
+  border: 2px solid #ffffff;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 9.9rem;
+  margin-bottom: 14rem;
+}
+.header-btn:hover {
+  cursor: pointer;
+  background-color: #08AEEA;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#08aeea), to(#2af598));
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+}
+.header .icons {
+  text-align: center;
+  margin-bottom: 4.1rem;
+}
+.header .icons-1 {
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 1rem 0.6rem 0.8rem 0.6rem;
+}
+.header .icons-2 {
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 0.7rem 1rem 0.6rem 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.header .icons-3 {
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+/*Что такое йога-тур?*/
+.why {
+  background: #f8f2e4 url(/img/yogotour/yogbg.jpg) center no-repeat;
+  background-size: cover;
+}
+.why .photo {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.why-t {
+  text-align: left;
+  margin-top: 9.9rem;
+}
+.why-t h2 {
+  font-family: 'Muller_bold', sans-serif;
+  font-size: 3rem;
+}
+.why-t h2 strong {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+}
+.why-t-area {
+  width: 39.2rem;
+  height: 13.3rem;
+  font-size: 1.6rem;
+  font-family: 'Muller_reg', sans-serif;
+  font-weight: 400;
+  margin-top: 4.6rem;
+  margin-bottom: 5.5rem;
+}
+.why-t-ico {
+  font-family: 'Muller_reg', sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.why-t-ico-1::before {
+  content: '';
+  display: inline-block;
+  margin-right: 2.1rem;
+  background: url(/img/yogotour/bumaga1.svg) center no-repeat;
+  background-size: 100%;
+  width: 3rem;
+  height: 2rem;
+}
+.why-t-ico-2::before {
+  content: '';
+  display: inline-block;
+  margin-right: 2.1rem;
+  background: url(/img/yogotour/voda2.svg) center no-repeat;
+  background-size: 100%;
+  width: 3rem;
+  height: 2.4rem;
+}
+.why-t-ico-3::before {
+  content: '';
+  display: inline-block;
+  margin-right: 2.1rem;
+  background: url(/img/yogotour/camolet3.svg) center no-repeat;
+  background-size: 100%;
+  width: 3rem;
+  height: 2.8rem;
+}
+/* Причины */
+.reason {
+  margin-bottom: 7.7rem;
+  background: #ffffff;
+}
+.reason-header {
+  text-align: center;
+}
+.reason-header h2 {
+  font-family: 'Muller_bold', sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8rem;
+}
+.reason-header img {
+  margin-top: 1.9rem;
+  margin-bottom: 7rem;
+}
+.reason-block {
+  text-align: center;
+}
+.reason-block p {
+  font-family: 'Muller_bold', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+/* Что меня ждет в путешествии*/
+.wait {
+  background: #f8f2e4 url(/img/yogotour/yogbg.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 10.4rem;
+}
+.wait .slider img {
+  width: 100%;
+}
+/* Расписание */
+.timetable {
+  margin-top: 7.9rem;
+}
+.timetable .reason-header img {
+  margin-bottom: 7rem;
+}
+.timetable-form {
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: #fff8e6;
+  height: 18rem;
+}
+.timetable-form p {
+  padding-top: 2.1rem;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.timetable-form p strong {
+  font-family: 'Muller_bold', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.timetable-form a {
+  font-size: 1.2rem;
+  color: #5a56b0;
+  border-bottom: 1px solid #5a56b0;
+}
+.timetable-form a a:hover {
+  color: #24234a;
+}
+.timetable-form button {
+  display: block;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #e28234;
+  width: 14rem;
+  height: 4rem;
+  border: 2px solid #e28234;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.timetable-form button:hover {
+  background-color: #e28234;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .shapka img {
+    margin-left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .shapka img {
+    margin-left: 0;
+  }
+}
